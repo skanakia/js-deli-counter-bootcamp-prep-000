@@ -19,7 +19,9 @@ function currentLine(arr) {
   } else {
     var astr = "The line is currently: "
     for (var i = 0; i < arr.length; i++) {
-      
+      if (i < line.length - 1) {
+        
+      }
     }
   }
 }
