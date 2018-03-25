@@ -13,4 +13,8 @@ function nowServing(arr) {
   }
 }
 
-function currentLine()
+function currentLine(arr) {
+  if (arr.length === 0) {
+    return "The line is currently empty."
+  }
+}
