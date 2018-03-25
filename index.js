@@ -20,9 +20,9 @@ function currentLine(arr) {
     var astr = "The line is currently: "
     for (var i = 0; i < arr.length; i++) {
       if (i < arr.length - 1) {
-        astr += `${i + 1}. ${line[i]}, `;
+        astr += `${i + 1}. ${arr[i]}, `;
       } else {
-        astr += `${i + 1}. ${line[i]}`;
+        astr += `${i + 1}. ${arr[i]}`;
       }
     }
   }
