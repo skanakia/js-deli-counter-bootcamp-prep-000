@@ -18,6 +18,8 @@ function currentLine(arr) {
     return "The line is currently empty."
   } else {
     var astr = "The line is currently: "
-    for (var i = 0; i < arr.length)
+    for (var i = 0; i < arr.length; i++) {
+      
+    }
   }
 }
