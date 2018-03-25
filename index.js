@@ -22,8 +22,9 @@ function currentLine(arr) {
       if (i < line.length - 1) {
         astr += `${i + 1}. ${line[i]}, `;
       } else {
-        astr += 
+        astr += `${i + 1}. ${line[i]}`;
       }
     }
   }
+  return astr
 }
